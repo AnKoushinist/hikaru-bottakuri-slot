@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>gimmick/images/gimmick_twinkle_0.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{122,195},{48,48}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{48,48}</string>
+			</dict>
+			<key>gimmick/images/gimmick_twinkle_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{122,245},{48,48}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{48,48}</string>
+			</dict>
+			<key>gimmick/images/gimmick_twinkle_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{458,147},{48,48}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{48,48}</string>
+			</dict>
+			<key>gimmick/images/gimmick_twinkle.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{172,195},{18,18}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{18,18}</string>
+			</dict>
+			<key>gimmick/images/gimimick_twinkle.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{195,147},{119,119}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{119,119}</string>
+			</dict>
+			<key>gimmick/images/gimimick_twinkle_yellow.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,195},{119,119}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{119,119}</string>
+			</dict>
+			<key>gimmick/images/gimmick_close.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{316,147},{140,89}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{140,89}</string>
+			</dict>
+			<key>gimmick/images/gimmick_shop_00.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{195,1},{192,144}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{192,144}</string>
+			</dict>
+			<key>gimmick/images/gimmick_shop_01.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{389,1},{192,144}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{192,144}</string>
+			</dict>
+			<key>gimmick/images/gimmick_shop_02.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{583,1},{192,144}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{192,144}</string>
+			</dict>
+			<key>gimmick/images/gimmick_shop_03.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{192,192}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{192,192}</string>
+			</dict>
+			<key>gimmick/images/gimmick_shop_04.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{777,1},{144,144}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{144,144}</string>
+			</dict>
+			<key>gimmick/images/gimmick_strongBox1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{923,129},{96,96}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{96,96}</string>
+			</dict>
+			<key>gimmick/images/gimmick_strongBox2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{923,1},{96,126}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{96,126}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>sprite_gimmick.png</string>
+			<key>realTextureFileName</key>
+			<string>sprite_gimmick.png</string>
+			<key>size</key>
+			<string>{1024,512}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>512</integer>
+		</dict>
+	</dict>
+</plist>

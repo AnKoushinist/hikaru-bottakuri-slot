@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="0x106000e" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:id="@+id/smaad_video_view_layout" android:background="0x106000e" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <VideoView android:id="@+id/smaad_video_view" android:background="0x106000d" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/smaad_video_endcard_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <WebView android:id="@+id/smaad_video_endcard" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </RelativeLayout>
+    <ImageView android:id="@+id/smaad_video_close" android:visibility="visible" android:layout_width="UNKNOWN_DATA_0x2501" android:layout_height="UNKNOWN_DATA_0x2501" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:src="@drawable/smaad_close" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <ImageView android:id="@+id/smaad_video_replay" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x2501" android:layout_height="UNKNOWN_DATA_0x2501" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:src="@drawable/smaad_replay" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+</RelativeLayout>

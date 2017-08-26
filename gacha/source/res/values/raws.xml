@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <raw name="amu_ballon_gx_prefix">res/raw/amu_ballon_gx_prefix.kml</raw>
+    <raw name="amu_basic_folder">res/raw/amu_basic_folder.kml</raw>
+    <raw name="amu_basic_placemark">res/raw/amu_basic_placemark.kml</raw>
+    <raw name="amu_cdata">res/raw/amu_cdata.kml</raw>
+    <raw name="amu_default_balloon">res/raw/amu_default_balloon.kml</raw>
+    <raw name="amu_document_nest">res/raw/amu_document_nest.kml</raw>
+    <raw name="amu_draw_order_ground_overlay">res/raw/amu_draw_order_ground_overlay.kml</raw>
+    <raw name="amu_extended_data">res/raw/amu_extended_data.kml</raw>
+    <raw name="amu_ground_overlay">res/raw/amu_ground_overlay.kml</raw>
+    <raw name="amu_ground_overlay_color">res/raw/amu_ground_overlay_color.kml</raw>
+    <raw name="amu_inline_style">res/raw/amu_inline_style.kml</raw>
+    <raw name="amu_multigeometry_placemarks">res/raw/amu_multigeometry_placemarks.kml</raw>
+    <raw name="amu_multiple_placemarks">res/raw/amu_multiple_placemarks.kml</raw>
+    <raw name="amu_nested_folders">res/raw/amu_nested_folders.kml</raw>
+    <raw name="amu_nested_multigeometry">res/raw/amu_nested_multigeometry.kml</raw>
+    <raw name="amu_poly_style_boolean_alpha">res/raw/amu_poly_style_boolean_alpha.kml</raw>
+    <raw name="amu_poly_style_boolean_numeric">res/raw/amu_poly_style_boolean_numeric.kml</raw>
+    <raw name="amu_unknwown_folder">res/raw/amu_unknwown_folder.kml</raw>
+    <raw name="amu_unsupported">res/raw/amu_unsupported.kml</raw>
+    <raw name="amu_visibility_ground_overlay">res/raw/amu_visibility_ground_overlay.kml</raw>
+</resources>

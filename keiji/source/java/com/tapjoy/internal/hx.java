@@ -1,0 +1,114 @@
+package com.tapjoy.internal;
+
+import java.io.EOFException;
+
+final class hx implements ht {
+    public final hr a = new hr();
+    public final ic b;
+    boolean c;
+
+    hx(ic icVar) {
+        if (icVar == null) {
+            throw new IllegalArgumentException("source == null");
+        }
+        this.b = icVar;
+    }
+
+    public final long b(hr hrVar, long j) {
+        if (hrVar == null) {
+            throw new IllegalArgumentException("sink == null");
+        } else if (j < 0) {
+            throw new IllegalArgumentException("byteCount < 0: " + j);
+        } else if (this.c) {
+            throw new IllegalStateException("closed");
+        } else if (this.a.b == 0 && this.b.b(this.a, 8192) == -1) {
+            return -1;
+        } else {
+            return this.a.b(hrVar, Math.min(j, this.a.b));
+        }
+    }
+
+    public final boolean b() {
+        if (!this.c) {
+            return this.a.b() && this.b.b(this.a, 8192) == -1;
+        } else {
+            throw new IllegalStateException("closed");
+        }
+    }
+
+    public final byte c() {
+        a(1);
+        return this.a.c();
+    }
+
+    public final hu b(long j) {
+        a(j);
+        return this.a.b(j);
+    }
+
+    public final String c(long j) {
+        a(j);
+        return this.a.c(j);
+    }
+
+    public final int e() {
+        a(4);
+        return ie.a(this.a.d());
+    }
+
+    public final long f() {
+        a(8);
+        return this.a.f();
+    }
+
+    public final void d(long j) {
+        if (this.c) {
+            throw new IllegalStateException("closed");
+        }
+        while (j > 0) {
+            if (this.a.b == 0 && this.b.b(this.a, 8192) == -1) {
+                throw new EOFException();
+            }
+            long min = Math.min(j, this.a.b);
+            this.a.d(min);
+            j -= min;
+        }
+    }
+
+    public final void close() {
+        if (!this.c) {
+            this.c = true;
+            this.b.close();
+            hr hrVar = this.a;
+            try {
+                hrVar.d(hrVar.b);
+            } catch (EOFException e) {
+                throw new AssertionError(e);
+            }
+        }
+    }
+
+    public final String toString() {
+        return "buffer(" + this.b + ")";
+    }
+
+    public final void a(long j) {
+        if (j < 0) {
+            throw new IllegalArgumentException("byteCount < 0: " + j);
+        } else if (this.c) {
+            throw new IllegalStateException("closed");
+        } else {
+            Object obj;
+            while (this.a.b < j) {
+                if (this.b.b(this.a, 8192) == -1) {
+                    obj = null;
+                    break;
+                }
+            }
+            obj = 1;
+            if (obj == null) {
+                throw new EOFException();
+            }
+        }
+    }
+}

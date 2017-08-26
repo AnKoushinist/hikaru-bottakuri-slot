@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>alert_bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{896,732}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{896,732}</string>
+			</dict>
+			<key>dummy.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{899,1},{1,1}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1,1}</string>
+			</dict>
+			<key>push.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,735},{425,126}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{425,126}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>common_share_alert_sprite.png</string>
+			<key>realTextureFileName</key>
+			<string>common_share_alert_sprite.png</string>
+			<key>size</key>
+			<string>{901,862}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>901</integer>
+			<key>height</key>
+			<integer>862</integer>
+		</dict>
+	</dict>
+</plist>;

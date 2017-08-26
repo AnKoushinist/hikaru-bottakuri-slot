@@ -1,0 +1,12 @@
+{
+    "packageUrl" : "https://dd0zhvtql4yiw.cloudfront.net/dev/",
+    "remoteManifestUrl" : "https://dd0zhvtql4yiw.cloudfront.net/dev/remote.manifest",
+    "remoteVersionUrl" : "https://dd0zhvtql4yiw.cloudfront.net/dev/version.manifest",
+    "version" : "0.0.0",
+    "engineVersion" : "Cocos2d-x v3.9",
+    "assets" : {
+      "asset.zip": {
+        "md5":"977cb044104b7f4fc925bdf426fb52db"
+      }
+    }
+}

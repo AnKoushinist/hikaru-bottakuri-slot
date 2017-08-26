@@ -1,0 +1,155 @@
+package com.tapjoy;
+
+import com.tapjoy.internal.cr;
+import java.io.Serializable;
+import java.util.UUID;
+
+public class TJPlacementData implements Serializable {
+    private String a;
+    private String b;
+    private String c;
+    private String d;
+    private String e;
+    private int f;
+    private String g;
+    private int h;
+    private boolean i;
+    private String j;
+    private boolean k;
+    private String l;
+    private boolean m;
+    private boolean n;
+
+    public TJPlacementData(String str) {
+        this.m = true;
+        this.n = false;
+        updateUrl(str);
+        this.a = UUID.randomUUID().toString();
+    }
+
+    public TJPlacementData(String str, String str2) {
+        this.m = true;
+        this.n = false;
+        setBaseURL(str);
+        setHttpResponse(str2);
+        this.a = UUID.randomUUID().toString();
+    }
+
+    public TJPlacementData(String str, String str2, String str3) {
+        this(str, str2);
+        this.l = str3;
+        this.m = false;
+    }
+
+    public void resetPlacementRequestData() {
+        setHttpResponse(null);
+        setHttpStatusCode(0);
+        setRedirectURL(null);
+        setHasProgressSpinner(false);
+        setPrerenderingRequested(false);
+        setPreloadDisabled(false);
+    }
+
+    public String getCallbackID() {
+        return this.l;
+    }
+
+    public boolean isBaseActivity() {
+        return this.m;
+    }
+
+    public void setBaseURL(String str) {
+        this.c = str;
+    }
+
+    public void setMediationURL(String str) {
+        this.d = str;
+    }
+
+    public void setHttpResponse(String str) {
+        this.e = str;
+    }
+
+    public void setHttpStatusCode(int i) {
+        this.f = i;
+    }
+
+    public void setPlacementName(String str) {
+        this.g = str;
+    }
+
+    public void setViewType(int i) {
+        this.h = i;
+    }
+
+    public void setRedirectURL(String str) {
+        this.j = str;
+    }
+
+    public void setHasProgressSpinner(boolean z) {
+        this.i = z;
+    }
+
+    public String getUrl() {
+        return this.b;
+    }
+
+    public String getGuid() {
+        return this.a;
+    }
+
+    public String getBaseURL() {
+        return this.c;
+    }
+
+    public String getMediationURL() {
+        return this.d;
+    }
+
+    public String getHttpResponse() {
+        return this.e;
+    }
+
+    public int getHttpStatusCode() {
+        return this.f;
+    }
+
+    public String getPlacementName() {
+        return this.g;
+    }
+
+    public int getViewType() {
+        return this.h;
+    }
+
+    public String getRedirectURL() {
+        return this.j;
+    }
+
+    public boolean hasProgressSpinner() {
+        return this.i;
+    }
+
+    public void setPreloadDisabled(boolean z) {
+        this.n = z;
+    }
+
+    public boolean isPreloadDisabled() {
+        return this.n;
+    }
+
+    public boolean isPrerenderingRequested() {
+        return this.k;
+    }
+
+    public void setPrerenderingRequested(boolean z) {
+        this.k = z;
+    }
+
+    public void updateUrl(String str) {
+        this.b = str;
+        if (!cr.c(str)) {
+            setBaseURL(str.substring(0, str.indexOf(47, str.indexOf("//") + 3)));
+        }
+    }
+}

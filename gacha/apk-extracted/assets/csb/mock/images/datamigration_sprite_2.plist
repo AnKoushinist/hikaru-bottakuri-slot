@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>images/datamigration_btn_01_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,677},{480,80}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{480,80}</string>
+			</dict>
+			<key>images/datamigration_btn_02_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{583,1},{240,80}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{240,80}</string>
+			</dict>
+			<key>images/datamigration_btn_close_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{825,1},{80,80}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{80,80}</string>
+			</dict>
+			<key>images/datamigration_footer_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,759},{640,40}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{640,40}</string>
+			</dict>
+			<key>images/datamigration_header_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,565},{640,110}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{640,110}</string>
+			</dict>
+			<key>images/datamigration_icon_caution_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{969,1},{50,44}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{50,44}</string>
+			</dict>
+			<key>images/datamigration_inputarea_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,423},{560,140}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{560,140}</string>
+			</dict>
+			<key>images/datamigration_window_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{580,420}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{580,420}</string>
+			</dict>
+			<key>images/datamigration_check_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{907,1},{60,60}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{60,60}</string>
+			</dict>
+			<key>images/datamigration_check_off_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{907,63},{60,60}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{60,60}</string>
+			</dict>
+			<key>images/datamigration_checkbox_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{583,83},{60,60}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{60,60}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>datamigration_sprite_2.png</string>
+			<key>realTextureFileName</key>
+			<string>datamigration_sprite_2.png</string>
+			<key>size</key>
+			<string>{1020,800}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1020</integer>
+			<key>height</key>
+			<integer>800</integer>
+		</dict>
+	</dict>
+</plist>
